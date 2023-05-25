@@ -1,3 +1,4 @@
+// A function to get a random hand
 getComputerChoice = function () {
   const randomNum = Math.floor(Math.random() * 3);
 
@@ -10,9 +11,11 @@ getComputerChoice = function () {
   }
 };
 
+// Initializing score variables
 let compPts = 0;
 let playerPts = 0;
 
+// Plays a round of rock, paper, scissors and determines a winner
 playRound = function (playerSelection, computerSelection) {
   playerSelection = playerSelection.toLowerCase();
   computerSelection = computerSelection.toLowerCase();
@@ -40,6 +43,7 @@ playRound = function (playerSelection, computerSelection) {
   }
 };
 
+// Plays 5 rounds of rock, paper, scissors, and determines a winner
 game = function () {
   for (let i = 0; i <= 4; i++) {
     const compAnswer = getComputerChoice();
