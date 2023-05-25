@@ -60,8 +60,6 @@ game = function () {
     console.log(`You lost to the computer ${compPts} to ${playerPts}`);
   }
 };
-
-game();
 /**
  *
  *
