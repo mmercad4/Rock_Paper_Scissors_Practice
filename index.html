@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
-</head>
-<body>
-    
-</body>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="winner"></div>
+    <div class="action-container">
+      <div class="user">
+        <h1 class="userHead">User</h1>
+        <img
+          class="playerImg"
+          src="https://cdn.pixabay.com/photo/2017/02/25/22/04/user-icon-2098873_1280.png"
+          alt="A user icon that shows a head and shoulders"
+        />
+      </div>
+      <div class="cpu">
+        <h1 class="cpuHead">CPU</h1>
+        <img
+          class="cpuImg"
+          src="https://cdn.pixabay.com/photo/2017/02/26/00/03/cranium-2099120_1280.png"
+          alt="A head made out of neuralnetworks"
+        />
+      </div>
+    </div>
+    <div class="button-container">
+      <button class="button">Rock</button>
+      <button class="button">Paper</button>
+      <button class="button">Scissors</button>
+    </div>
+  </body>
 </html>
